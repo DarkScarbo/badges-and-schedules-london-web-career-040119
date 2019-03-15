@@ -7,9 +7,8 @@ def batch_badge_creator(names)
 	names.each do |name|
    		badge_messages.push("Hello, my name is #{name}.")
       #puts "Hello, my name is #{name}."
-end
-
-badge_messages
+  end
+  badge_messages
 end
 
 def assign_rooms(names)
